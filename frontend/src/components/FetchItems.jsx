@@ -4,7 +4,7 @@ import { itemsActions } from '../store/itemsSlice';
 import { fetchStatusActions } from '../store/fetchStatusSlice';
 
 const FetchItems = () => {
-  const backUrl = "http://localhost:8080"
+  const backUrl = "https://myntra-clone-backend-izom.onrender.com"
 
    const fetchStatus =   useSelector(store=>store.fetchStatus)
    
